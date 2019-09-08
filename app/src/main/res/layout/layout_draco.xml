@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bg"
+    android:padding="30dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="71.5dp"
+        android:textSize="35.5sp"
+        android:src="@drawable/wheelstate2"
+        android:id="@+id/draco_parallel" />
+
+    <ImageView
+        android:id="@+id/draco_off"
+        android:layout_width="56dp"
+        android:layout_height="71.5dp"
+        android:layout_alignTop="@+id/draco_parallel"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/draco_parallel"
+        android:gravity="center_horizontal"
+        android:src="@drawable/wheelstate1"/>
+
+    <ImageView
+        android:id="@+id/draco_mirror"
+        android:layout_width="56dp"
+        android:layout_height="71.5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/draco_off"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/draco_off"
+        android:src="@drawable/wheelstate3" />
+
+    <ImageView
+        android:id="@+id/draco_slider"
+        android:layout_width="56dp"
+        android:layout_height="3dp"
+        android:layout_alignStart="@id/draco_off"
+        android:layout_alignEnd="@id/draco_off"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/draco_parallel"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/profile_slide_line"/>
+</RelativeLayout>

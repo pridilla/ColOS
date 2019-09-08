@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_group_7_copy"
+    android:fitsSystemWindows="true"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+    <ImageView
+        android:id="@+id/steer_pointer_rectangle"
+        android:layout_width="227dp"
+        android:layout_height="8dp"
+        android:paddingLeft="113.5dp"
+        android:paddingRight="113.5dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="207.9dp"
+        android:src="@drawable/yellow"
+        android:rotation="0"/>
+
+    <ImageView
+        android:id="@+id/but_settings"
+        android:layout_marginTop="129dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="54.5dp"
+        android:layout_height="54.5dp"
+        android:src="@drawable/settings"/>
+
+    <ImageView
+        android:id="@+id/but_mods"
+        android:layout_marginTop="223.5dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="54.5dp"
+        android:layout_height="54.5dp"
+        android:src="@drawable/dashboardm"/>
+
+    <ImageView
+        android:id="@+id/but_draco"
+        android:layout_marginTop="129dp"
+        android:layout_marginStart="561.5dp"
+        android:layout_width="54.5dp"
+        android:layout_height="54.5dp"
+        android:src="@drawable/wheels1"/>
+
+    <ImageView
+        android:id="@+id/but_clara"
+        android:layout_marginTop="223.5dp"
+        android:layout_marginStart="561.5dp"
+        android:layout_width="54.5dp"
+        android:layout_height="54.5dp"
+        android:src="@drawable/clara"/>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_marginTop="76dp"
+        android:layout_marginStart="205.5dp"
+        android:layout_width="229dp"
+        android:layout_height="114.5dp"
+        android:src="@drawable/line"/>
+
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_marginTop="214dp"
+        android:layout_marginStart="205.5dp"
+        android:layout_width="233dp"
+        android:layout_height="32.5dp"
+        android:src="@drawable/line2"/>
+
+    <ImageView
+        android:id="@+id/lights"
+        android:layout_marginTop="266.5dp"
+        android:layout_marginStart="294dp"
+        android:layout_width="52.5dp"
+        android:layout_height="29.5dp"
+        android:src="@drawable/lightsoff"/>
+
+    <ImageView
+        android:id="@+id/obstL"
+        android:layout_marginTop="266.5dp"
+        android:layout_marginStart="204dp"
+        android:layout_width="52.5dp"
+        android:layout_height="29.5dp"
+        android:alpha="0.1"
+        android:src="@drawable/ic___obstacle"/>
+
+    <ImageView
+        android:id="@+id/obstR"
+        android:layout_marginTop="266.5dp"
+        android:layout_marginStart="384dp"
+        android:layout_width="52.5dp"
+        android:layout_height="29.5dp"
+        android:alpha="0.1"
+        android:src="@drawable/ic___obstacle"/>
+
+
+    <ImageView
+        android:id="@+id/battery"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="54.5dp"
+        android:layout_height="54.5dp"
+        android:src="@drawable/battery100"/>
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_marginTop="45.5dp"
+        android:layout_marginStart="390dp"
+        android:layout_width="54.5dp"
+        android:layout_height="53.4dp"
+        android:src="@drawable/ic_degrees_pointer_line"/>
+
+    <ImageView
+        android:id="@+id/speed_pointer"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="178dp"
+        android:src="@drawable/ic_needle_01"
+        android:rotation="0"/>
+
+    <ImageView
+        android:id="@+id/degree_pointer"
+        android:layout_width="78.5dp"
+        android:layout_height="74.5dp"
+        android:paddingLeft="37dp"
+        android:paddingRight="37dp"
+        android:paddingBottom="63.9dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="379.5dp"
+        android:src="@drawable/pointerdot"
+        android:rotation="0"/>
+
+    <ImageView
+        android:id="@+id/steer_pointer"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginStart="319.5dp"
+        android:src="@drawable/steeringneedle"
+        android:rotation="0"/>
+
+    <TextView
+        android:id="@+id/rotate_text"
+        android:layout_marginTop="45.5dp"
+        android:layout_marginStart="390dp"
+        android:layout_width="54.5dp"
+        android:layout_height="53.4dp"
+        android:text="0°"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/circular_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="184.5dp"
+        android:indeterminate="false"
+        android:max="360"
+        android:progress="0"
+        android:rotation="180"
+        android:progressDrawable="@drawable/speed_arc" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C6538C</color>
+    <color name="colorPrimaryDark"> #f31e1e1e</color>
+    <color name="colorAccent">#C6538C</color>
+
+    <color name="black_overlay">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="mango">#f4962b</color>
+    <color name="dark_rose">#be3b4b</color>
+    <color name="mid_blue">#1f71b2</color>
+    <color name="charcoal_grey">#2a2e34</color>
+
+
+</resources>

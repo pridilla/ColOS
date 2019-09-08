@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bg"
+    android:padding="30dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35.5sp"
+        android:textColor="#333c48"
+        android:text="M"
+        android:id="@+id/profileM" />
+
+    <TextView
+        android:id="@+id/profileS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profileM"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/profileM"
+        android:textColor="#333c48"
+        android:textSize="35.5sp"
+        android:text="S" />
+
+    <TextView
+        android:id="@+id/profileP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/profileM"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/profileS"
+        android:textColor="#333c48"
+        android:textSize="35.5sp"
+        android:text="P" />
+
+    <TextView
+        android:id="@+id/profileR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profileM"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/profileP"
+        android:textColor="#333c48"
+        android:textSize="35.5sp"
+        android:text="R" />
+
+    <TextView
+        android:id="@+id/profileH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/profileM"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/profileR"
+        android:textColor="#333c48"
+        android:textSize="35.5sp"
+        android:text="H" />
+
+
+    <ImageView
+        android:id="@+id/profile_slider"
+        android:layout_width="32dp"
+        android:layout_height="3dp"
+        android:layout_alignStart="@id/profileM"
+        android:layout_alignEnd="@id/profileM"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/profileM"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_slide_line" />
+</RelativeLayout>
